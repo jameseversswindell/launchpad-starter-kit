@@ -1,0 +1,85 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: Title
+        instructions: 'Website and page titles.'
+        fields:
+          -
+            handle: separator
+            field:
+              options:
+                '|': '|'
+                '-': '-'
+                /: /
+                '>': '>'
+              taggable: false
+              push_tags: false
+              multiple: false
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Separator
+              instructions: 'Select the character to separate the page title and site title.'
+              listable: hidden
+              instructions_position: below
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              width: 33
+          -
+            handle: website_title
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Website Title'
+              instructions: "The title for the website. Defaults to Laravel's App Name."
+              listable: hidden
+              instructions_position: below
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              width: 66
+      -
+        display: Environments
+        instructions: 'When to noindex and nofollow the whole website by default.'
+        fields:
+          -
+            handle: local
+            field:
+              default: true
+              type: toggle
+              display: Local
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              width: 33
+          -
+            handle: staging
+            field:
+              default: true
+              type: toggle
+              display: Staging
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              width: 33
+          -
+            handle: production
+            field:
+              default: false
+              type: toggle
+              display: Production
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              width: 33

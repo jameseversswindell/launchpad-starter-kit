@@ -1,0 +1,1 @@
+<button {{ $attributes->merge(['class' => '[ button ] [ inline-flex items-center gap-2 ] [ bg-gray-600 text-white rounded-md p-3 ]']) }} type="button">{{ $slot }}</button>

@@ -1,0 +1,14 @@
+title: 'Company Details'
+data:
+  company_logo: images/james-evers-swindell-logo-black-2021.svg
+  company_logo_alternative: images/james-evers-swindell-logo-white-2021.svg
+  company_name: 'Build LTD'
+  company_information: 'A front end UI component library and starter kit'
+  registered_address:
+    'Address line 1': 'Address line 1'
+    'Address line 2': 'Address line 2'
+    'Town / City': Town
+    County: County
+    Postcode: Postcode
+  email: hello@build.test
+  telephone: '01234 567 890'

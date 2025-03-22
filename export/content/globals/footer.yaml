@@ -1,0 +1,6 @@
+title: Footer
+data:
+  footer_navigation:
+    - services
+    - about
+    - legal

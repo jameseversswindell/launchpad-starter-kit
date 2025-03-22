@@ -1,0 +1,13 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: footer_navigation
+            field:
+              max_items: 4
+              type: navs
+              display: 'Footer Navigation'
+              instructions: 'Select the navigation options you want to display in the footer.'

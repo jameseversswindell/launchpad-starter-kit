@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@source "../views";
+@source "../../content";
+
+
+/* This is all you. */
+
+.smol-css-grid {
+    --min: 15ch;
+    --gap: 1rem;
+
+    display: grid;
+    grid-gap: var(--gap);
+    /* min() with 100% prevents overflow in extra narrow spaces */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+  }

@@ -1,0 +1,38 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Add your social media links'
+        instructions: 'Include the full URLs to your social media profiles. These will appear as links in the website footer.'
+        fields:
+          -
+            handle: instagram
+            field:
+              type: text
+              display: Instagram
+              input_type: url
+          -
+            handle: facebook
+            field:
+              type: text
+              display: Facebook
+              input_type: url
+          -
+            handle: twitter_x
+            field:
+              type: text
+              display: 'Twitter (X)'
+              input_type: url
+          -
+            handle: github
+            field:
+              type: text
+              display: GitHub
+              input_type: url
+          -
+            handle: youtube
+            field:
+              type: text
+              display: YouTube
+              input_type: url

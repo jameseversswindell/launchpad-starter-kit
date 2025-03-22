@@ -1,0 +1,24 @@
+{
+    "name": "jameseversswindell/launchpad-starter-kit",
+    "extra": {
+        "statamic": {
+            "name": "Launchpad",
+            "description": "A simple starter kit for Statamic. Uses Laravel Blade, AlpineJS."
+        },
+        "laravel": {
+            "providers": [
+                "Jameseversswindell\\Launchpad\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jameseversswindell\\Launchpad\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}

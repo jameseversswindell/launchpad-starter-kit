@@ -1,0 +1,6 @@
+title: SEO
+data:
+  separator: '|'
+  local: true
+  staging: true
+  production: false

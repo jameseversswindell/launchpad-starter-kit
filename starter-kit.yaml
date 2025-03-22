@@ -1,0 +1,18 @@
+updatable: true
+export_paths:
+  - content
+  - config/filesystems.php
+  - config/statamic/assets.php
+  - resources/blueprints
+  - resources/css/site.css
+  - resources/views
+  - public/build
+  - package.json
+  - vite.config.js
+dependencies:
+  jacksleight/statamic-bard-mutator: ^3.0
+modules:
+  services:
+    export_paths:
+      - content/collections/services.yaml
+      - content/collections/services

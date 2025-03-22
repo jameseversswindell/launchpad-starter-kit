@@ -1,0 +1,20 @@
+tree:
+  -
+    id: b6e0d96f-3f17-487a-b604-13034fe36b23
+    entry: home
+  -
+    id: 53258022-a1b8-4157-b750-b0b3144d83bb
+    entry: a8e1d445-29d9-4213-98f3-1c877bb9bc42
+  -
+    id: b7475e10-1a53-4a80-ba58-86f29e846bd7
+    entry: 060fd0c4-c5c4-4d22-831d-1894a32c62c5
+  -
+    id: a29f2e7a-6d82-484a-8d4d-bff1d0aff082
+    entry: 51cd6ddc-923a-4638-b5b9-b26e225a27bf
+    children:
+      -
+        id: e27157d3-d104-496f-9537-c505aa762458
+        entry: 73a1a936-acca-4616-a080-3cde90e728e0
+  -
+    id: d5e1fe43-6ed7-423f-980e-748aefb6594e
+    entry: 63a16d13-8378-489a-a0df-ee05376e44be

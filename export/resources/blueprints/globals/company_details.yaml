@@ -1,0 +1,72 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Include your company details and information'
+        instructions: 'This will be used to consistently set the following information across the website.'
+        fields:
+          -
+            handle: company_logo
+            field:
+              max_files: 1
+              mode: grid
+              container: assets
+              type: assets
+              display: 'Company logo'
+              instructions: 'Best included as an svg if possible.'
+              width: 50
+          -
+            handle: company_logo_alternative
+            field:
+              max_files: 1
+              mode: grid
+              container: assets
+              type: assets
+              display: 'Company logo - alternative'
+              instructions: 'Best included as an svg if possible. To be used in the footer in place of the main logo if set.'
+              width: 50
+          -
+            handle: company_name
+            field:
+              type: text
+              display: 'Company name'
+          -
+            handle: company_information
+            field:
+              type: text
+              display: 'Company information'
+          -
+            handle: registered_address
+            field:
+              mode: keyed
+              keys:
+                -
+                  key: 'Address line 1'
+                  value: null
+                -
+                  key: 'Address line 2'
+                  value: null
+                -
+                  key: 'Town / City'
+                  value: null
+                -
+                  key: County
+                  value: null
+                -
+                  key: Postcode
+                  value: null
+              type: array
+              display: 'Registered address'
+          -
+            handle: email
+            field:
+              input_type: email
+              type: text
+              display: Email
+          -
+            handle: telephone
+            field:
+              input_type: tel
+              type: text
+              display: Telephone
