@@ -1,0 +1,10 @@
+title: 'Bard Content'
+fields:
+  -
+    handle: bard_content
+    field:
+      save_html: true
+      remove_empty_nodes: false
+      always_show_set_button: true
+      type: bard
+      display: Content

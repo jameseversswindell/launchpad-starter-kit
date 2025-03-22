@@ -3,16 +3,10 @@ export_paths:
   - content
   - config/filesystems.php
   - config/statamic/assets.php
-  - resources/blueprints
-  - resources/css/site.css
-  - resources/views
+  - resources
   - public/build
   - package.json
+  - routes/web.php
   - vite.config.js
 dependencies:
   jacksleight/statamic-bard-mutator: ^3.0
-modules:
-  services:
-    export_paths:
-      - content/collections/services.yaml
-      - content/collections/services

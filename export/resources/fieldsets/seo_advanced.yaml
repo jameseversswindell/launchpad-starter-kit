@@ -1,0 +1,27 @@
+title: 'SEO - Advanced'
+fields:
+  -
+    handle: noindex
+    field:
+      type: toggle
+      display: No-index
+      instructions: 'Instruct crawlers not to index this entry, also excludes it from the sitemap.xml.'
+      width: 50
+      instructions_position: below
+  -
+    handle: nofollow
+    field:
+      type: toggle
+      display: No-follow
+      instructions: 'Instruct crawlers not to follow links on this page.'
+      width: 50
+      instructions_position: below
+  -
+    handle: canonical
+    field:
+      type: text
+      display: Canonical
+      instructions: |-
+        Set the canonical URL (the preferred version of a web page that Google chooses from a group of duplicate pages). Defaults to the page permalink.
+
+        Must be a valid url like https://yourdomainname.com

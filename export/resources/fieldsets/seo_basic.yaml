@@ -1,0 +1,16 @@
+title: 'SEO - Basic'
+fields:
+  -
+    handle: page_title
+    field:
+      type: text
+      display: 'Page title'
+      instructions: "This entry's title. Defaults to entry title and site name."
+      character_limit: 70
+  -
+    handle: meta_description
+    field:
+      character_limit: '160'
+      type: textarea
+      display: 'Meta description'
+      instructions: "This entry's meta description. Max 160 characters."

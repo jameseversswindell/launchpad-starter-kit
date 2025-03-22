@@ -1,0 +1,24 @@
+title: 'SEO - Open Graph'
+fields:
+  -
+    handle: social_title
+    field:
+      type: text
+      display: 'Social title'
+      instructions: "This entry's OG title, defaults to page title."
+  -
+    handle: social_description
+    field:
+      type: textarea
+      display: 'Social description'
+      instructions: "This entry's OG description, defaults to meta description."
+  -
+    handle: social_image
+    field:
+      max_files: 1
+      container: images
+      type: assets
+      display: 'Social image'
+      instructions: "This entry's OG image. Defaults to global site OG image. The recommended size is 1200px x 630px. The image will be focal cropped to this dimension."
+      instructions_position: below
+      width: 50
